@@ -13,7 +13,7 @@ export default async function Page() {
     <>
       <SearchField />
       <NewsList news={news} />
-      <Pagination totalCount={totalCount} />
+      <Pagination totalCount={totalCount} basePath='/news' />
     </>
   );
 }
